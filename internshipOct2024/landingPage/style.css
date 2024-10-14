@@ -19,6 +19,7 @@ header{
     font-size: 1em;
 }
 .nav{
+    padding-top: .8em;
     display: flex;
     gap: 3em;
 }
@@ -37,12 +38,21 @@ button{
 button:hover{
     background-color: rgb(250, 219, 173);
 }
+
+/* home */
 #home{
     background-color: #387478;
     display: flex;
-    padding: 2em;
+    padding: 1.5em;
+    align-items: center;
+    height: 39em;
+    margin: 2em;
 }
 #home img{
-    width: 400px;
+    width: 50%;
     padding: 1em;
+}
+.text h2{
+    font-size: 2em;
+    margin-bottom: 1em;
 }
