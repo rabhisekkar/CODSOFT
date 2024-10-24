@@ -23,7 +23,11 @@ header{
     display: flex;
     gap: 3em;
 }
+.nav a{
+    display: inline-block;
+}
 .nav a:hover{
+    transform: scale(1.08);
     color: #68a8ad;
 }
 ul{
@@ -64,6 +68,9 @@ button:hover{
 }
 
 /* products */
+.cards a{
+    text-decoration: none;
+}
 #prod{
     background-color: #265350;
     padding: 1.5em;
@@ -82,6 +89,7 @@ button:hover{
 .card h4, .card p{
     margin: 1em;
     text-align: center;
+    color: white;
 }
 
 .card img{
@@ -106,7 +114,7 @@ button:hover{
     align-items: center;
 }
 #about img{
-    width: 50%;
+    width: 55%;
     padding: 1em;
     border-radius: 1.2em;
 }
@@ -120,8 +128,6 @@ button:hover{
 #about .titleOfAbout h2{
     font-size: 2em;
 }
-
-
 #home .text h2{
     font-size: 2em;
     margin-bottom: 1em;
@@ -131,6 +137,26 @@ button:hover{
 /* footer */
 footer{
     background-color: #243642;
+    display: flex;
+    flex-direction: column;  /*to display elements vertically*/
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    font-size: 1.1em;
+}
+#address ul{
+    text-align: center;
+}
+#contact ul{
+    display: flex;
+    margin: 1em;
+}
+.foot img{
+    width: 1.7em;
+    margin: 0em 1em 0em;
+}
+.foot img:hover{
+    transform: scale(1.1);
 }
 
 /* responsiveness */
